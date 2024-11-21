@@ -1,0 +1,89 @@
+body {
+    font-family: 'Courier New', monospace; /* Monospaced font for a tech feel */
+    background-color: #000; /* Black background for a futuristic look */
+    color: #00ff00; /* Neon green text for a digital aesthetic */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    text-transform: lowercase; /* Stylized lowercase */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #00ff00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: #fff; /* White on hover */
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #00ff00;
+    padding-bottom: 0.5em;
+}
+
+.teaching {
+    margin-bottom: 1.5em;
+}
+
+form input[type="email"] {
+    padding: 10px;
+    background-color: #333;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    width: 200px;
+    margin-right: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #00ff00;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    font-size: 0.8em;
+}
